@@ -35,10 +35,10 @@ const Detail = () => {
             ) : (
             <div>
                 <h1>{character.name} </h1>    {/* O puedo hacer un conditional chaining en cada variable=> {character?.name} */}
-                <h3>{character.status} </h3>    {/* O sino => {character && character.name} */}
-                <h3>{character.species} </h3>
-                <h3>{character.gender} </h3>
-                <h3>{character.origin.name}</h3>
+                <h3>{`STATUS | ${character.status}`}</h3>    {/* O sino => {character && character.name} */}
+                <h3>{`GENDER | ${character.species}`}</h3>
+                <h3>{`SPECIE | ${character.gender}`}</h3>
+                <h3>{`ORIGIN | ${character.origin.name}`}</h3>
                 <img width= '400px' src={character.image} alt={`Imagen de ${character.name}`} />
             </div>
             )
