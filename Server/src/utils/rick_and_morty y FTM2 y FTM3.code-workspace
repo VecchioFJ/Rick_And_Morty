@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../Henry Bootcamp/M2/FT-M2"
+		},
+		{
+			"path": "../../../../Henry Bootcamp/FT-M3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FT-M3"
+	}
+}
