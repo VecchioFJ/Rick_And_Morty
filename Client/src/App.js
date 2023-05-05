@@ -7,9 +7,10 @@ import { Routes, Route, useNavigate } from 'react-router-dom'  // npm i react-ro
 import About from './components/About';
 import Detail from './components/Detail';
 import Form from './components/Form';
+
 import Favorites from './components/Favorites';
 
-//holis
+//hol
 // const URL_BASE = 'https://be-a-rym.up.railway.app/api/character'
 // const API_KEY = 'ff50319b6c37.e38dfb40ffcaf57ab4aa'
 const URL = 'http://localhost:3001/rickandmorty/login';
